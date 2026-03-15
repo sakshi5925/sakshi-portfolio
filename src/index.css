@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+background:#0b0b0b;
+color:white;
+font-family: monospace;
+}
+
+.glow{
+text-shadow:0 0 10px #ff1e1e;
+}
+
+.tech{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:6px;
+padding:10px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.tech:hover{
+background:#ef4444;
+color:white;
+transform:scale(1.08);
+}
+
+.fact{
+border:1px solid #ef4444;
+padding:10px;
+border-radius:6px;
+background:rgba(0,0,0,0.4);
+text-align:center;
+transition:0.3s;
+}
+
+.fact:hover{
+background:#ef4444;
+color:white;
+}
