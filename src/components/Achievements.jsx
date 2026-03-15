@@ -108,6 +108,21 @@ className="bg-black/70 border border-red-500 rounded-xl p-8 text-center shadow-l
 {title}
 </p>
 
+{/* PROFILE LINK */}
+
+{link && (
+
+<a
+href={link}
+target="_blank"
+className="flex justify-center items-center gap-2 mt-4 text-sm border border-red-500 px-3 py-1 rounded hover:bg-red-500 transition"
+>
+
+View Profile <FaExternalLinkAlt/>
+
+</a>
+
+)}
 
 
 </motion.div>
